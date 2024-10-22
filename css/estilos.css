@@ -1,0 +1,66 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Berkshire&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*/
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+AR:wght@100..400&display=swap');
+/*
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*/
+*{
+    /*fuente*/
+    font-family: "Montserrat", sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Playwrite DE Grund", cursive;
+}
+.razonSocial{
+    font-family: "Playwrite AR", serif;
+    color: #69177e;
+    font-size: 1.05em;
+/*    font-family: "Berkshire Swash", serif;
+parrafo es lo minimo 16 pixeles rem de fija en el establecio nave y el em es el mas carcano la refenia
+*/
+}
+p{
+    font-size: 1rem; /* 1 rem es la unidad de medida que establecio en el navegador*/
+}
+h1{
+    font-size: 2rem; /* 1 rem es la unidad de medida que establecio en el navegador */
+}
+h2{
+    font-size: 25px;
+}
+h3{
+    font-size: 20px;
+}
+.fuente50px{
+    font-size: 55px;
+}
+.colorPrincipal{
+    background-color: #ea98ff;
+    color: black;
+    a{
+        color:black;
+    }
+}
+.fuenteNegrita{
+    font-weight: 700;
+}
+.fuenteNegrita60{
+    font-weight: 600;
+}
+header, footer{
+    .logo{
+        width: 10%;
+    }
+    ul{
+        list-style: none;
+    }
+    a{
+        color:white;
+        text-decoration: none;
+    }
+    .fa-whatsapp{
+        color: #25d366;
+        font-size: 64px;
+    }
+}
+
