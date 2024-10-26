@@ -24,9 +24,16 @@
           -->
           <li><a href="index.html">Inicio</a></li>   <!-- pagina con ofrtas-->
           <li><a href="./pages/productos.html">Productos</a></li>
-          <li><a href="./pages/carrito.html">Carrito</a></li><!-- al hacer la compra pedir datos para facturar-->
+          <!-- <li><a href="./pages/carrito.html">Carrito</a></li>-->
+          <!-- al hacer la compra pedir datos para facturar-->
           <li><a href="#nosotros">Nosotros</a></li>
           <li><a href="./pages/contacto.html">Contacto</a></li>
+          <!-- <li><a href="./pages/carrito.html"  target="_blank">  -->
+          <li><a href="./pages/carrito.html" >
+            <img src="./assets/img/Redes/CarritoCompras.svg" alt="Logo de carrito de compras" style="width:20px">
+          </a>
+          </li>
+          
           <!--target="_blank" solo se usa cuando tenemos rutas absolutas 
           es decir el ancla o el link nos lleva fuera de nuestro sitio web y necesitamos que nuestro sitio web siga abierto en el navegador
           en el footer en los iconos de las redes sociales este atributo es obligatorio
@@ -54,13 +61,21 @@
     </header>
     <main>
       <h1><span class="razonSocial">Fragancias Argentinas</span> -- Perfumes Millanel (alternativas olfativas) --</h1>
-      <section id="oferta_f">
-        <h2>Ofertas para mujer</h2>
-        <img src="./assets/img/ofertas/Oferta1.jpg" alt="Oferta1, imagen perfume Belle Rose">
-        <img src="./assets/img/ofertas/Oferta2.jpg" alt="Oferta2, imagen perfume Èclat for femme">
-        <img src="./assets/img/ofertas/Oferta3.jpg" alt="Oferta3, imagen perfumes Sublme,Fémina,Amor M,Love me">
-        <img src="./assets/img/ofertas/Oferta4.jpg" alt="Oferta4, imagen perfumes Lady M, Las mil y  una noches">
-        <img src="./assets/img/ofertas/Oferta5.jpg" alt="Oferta5, imagen perfume Icónica">
+      <h2>Ofertas para mujer</h2>
+      <section class="contenedor_oferta" id="oferta_f">
+        <div class="flex-item">
+          <img src="./assets/img/ofertas/Oferta1.jpg" alt="Oferta1, imagen perfume Belle Rose">
+        </div>
+          <!-- <img src="./assets/img/ofertas/Oferta2.jpg" alt="Oferta2, imagen perfume Èclat for femme">-->
+        <div class="flex-item">
+          <img src="./assets/img/ofertas/Oferta3.jpg" alt="Oferta3, imagen perfumes Sublme,Fémina,Amor M,Love me">
+        </div>
+        <div class="flex-item">  
+          <img src="./assets/img/ofertas/Oferta4.jpg" alt="Oferta4, imagen perfumes Lady M, Las mil y  una noches">
+        </div>
+        <div class="flex-item">
+          <img src="./assets/img/ofertas/Oferta5.jpg" alt="Oferta5, imagen perfume Icónica">
+        </div>
       </section>
       <section id="oferta_m">
         <h2>Ofertas para hombre</h2>
