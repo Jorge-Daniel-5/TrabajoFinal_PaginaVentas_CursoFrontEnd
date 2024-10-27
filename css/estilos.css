@@ -40,6 +40,7 @@ h3{
 .fuente50px{
     font-size: 55px;
 }
+
 .colorPrincipal{
     background-color: #ea98ff;
     color: black;
@@ -86,8 +87,8 @@ header, footer{
     border-radius: 30px; /* 5% */
     background-color: rgb(61, 206, 206);
     padding: 1.7%;
-    width: 300px; 
     margin: 2%;
+    
 
 }   
 
