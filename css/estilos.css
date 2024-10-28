@@ -23,7 +23,7 @@ p{
 }
 h1{
     font-size: 3rem; 
-    margin: 4rem ;
+    margin-bottom: 4rem ;
 }
 h2{
     font-size: 2rem;
@@ -43,12 +43,18 @@ li{
 .fuente50px{
     font-size: 55px;
 }
-.colorPrincipal{
+.color_principal{
     background-color: #ea98ff;
     color: black;
     a{
         color:black;
     }
+}
+.color_fondo{
+    background: #efb3ff;
+    background: linear-gradient(121deg,#efb3ff 0%, #f2d6f8 16%, #efb3ff 33%, #f2d6f8 50%, #efb3ff 67%, #f2d6f8 84%, #efb3ff 100%);
+    background: -webkit-linear-gradient(121deg,#efb3ff 0%, #f2d6f8 16%, #efb3ff 33%, #f2d6f8 50%, #efb3ff 67%, #f2d6f8 84%, #efb3ff 100%);
+    background: -moz-linear-gradient(121deg,#efb3ff 0%, #f2d6f8 16%, #efb3ff 33%, #f2d6f8 50%, #efb3ff 67%, #f2d6f8 84%, #efb3ff 100%);
 }
 .fuenteNegrita{
     font-weight: 700;
@@ -61,25 +67,30 @@ li{
 }
 header, footer{
     .logo{
-        width: 120px;
+        width: 90px;
     }
     ul{ 
         list-style-type: none;
     }
     li {
         display: inline;
-        margin-right: 10px;
+        margin: auto 25px;
     }    
     a{
         color:white;
         text-decoration: none;
-        font-size: 30px;
+        font-size: 20px;
         font-weight: 700;
+        
     }
-    .fa-whatsapp{
-        color: #25d366;
-        font-size: 70px;
-    }
+    .conf-whatsapp{
+        position:fixed;
+        width:35px;
+        bottom: 8px;
+        color:rgb(44, 181, 44);
+        right: 20px;
+        font-size: 5em;
+    }    
     .contenedor_header{
         margin:0  auto;
         display:flex;
@@ -88,7 +99,19 @@ header, footer{
         justify-content:space-evenly;
         align-items: center; 
     }
+    .contendor_comunicacion{
+        padding:0.5rem ;
+        display:flex;
+        flex-wrap:wrap;
+        align-content: space-evenly;
+        justify-content:space-evenly;
+        align-items: center; 
+    }
+    .comunicacion-flex-item{
+        margin:0 10px;   
+    }
     .contenedor_sub_nav{
+        margin:0  auto;
         display:flex;
         flex-direction: row;
         justify-content:space-evenly;
@@ -96,6 +119,12 @@ header, footer{
     .sub_nav-flex-item{
         margin-bottom:1rem ;
     }
+}
+header{
+    width: 100%;
+    margin: 0;
+    position:sticky;
+    top:0;
 }
 .contenedor_oferta{
     margin:0 auto;
@@ -112,14 +141,5 @@ header, footer{
     background-color: rgb(61, 206, 206);
     padding: 1%;
     margin: 2%;
+    width: 32%;
 }   
-
-.comunicacion-flex-item{
-    margin:0.5rem auto;
-    display:flex;
-    flex-wrap:wrap;
-    align-content: space-evenly;
-    justify-content:space-evenly;
-    align-items: center; 
-
-}
