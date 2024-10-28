@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./css/estilos.css">
   </head>
   <body>
-    <header id="header" class="colorPrincipal">
+    <header id="header" class="color_principal">
       <section class="contenedor_header">
         <div class="header-flex-item">
           <a href="index.html">
@@ -49,13 +49,12 @@
         <div class="sub_nav-flex-item"> 
           <input type="text" placeholder="Usuario...."id="RegUsuario">
           <input type="password" placeholder="Clave...."id="RegClave">
-          <button onclick="location.href='./pages/registro.html'">Registro</button>       
-        </section>   
-      </div>
+          <button onclick="location.href='./pages/registro.html'">Registro</button> 
+        </div>      
+      </section>   
     </header>
-    <main>
+    <main class="color_fondo">
       <h1><div class="razonSocial">Fragancias Argentinas</div> -- Perfumes Millanel (alternativas olfativas) --</h1>
-      <h2>Ofertas para mujer</h2>
       <section id="oferta_f">
         <h2>Ofertas para mujer</h2>
         <div class="contenedor_oferta">
@@ -100,50 +99,8 @@
           En <span class="razonSocial">Fragancias Argentinas</span>, la belleza y el compromiso con el bienestar van de la mano. 
         </h4>
     </main>
-    <footer id="footer" class="colorPrincipal">
-      <section class="contenedor_header">
-        <div class="header-flex-item">
-          <a href="index.html">
-            <img class="logo" src="./assets/img/rosa _128px.png" alt="logo de Fragancias Argentinas, un diujo de la flor de la rosa"> 
-          </a>
-        </div>
-        <div class="header-flex-item">
-          <nav>
-            <ul>
-              <li><a href="index.html">Inicio</a></li>   <!-- pagina con ofrtas-->
-              <li><a href="./pages/productos.html">Productos</a></li>
-              <li><a href="#nosotros">Nosotros</a></li>
-              <li><a href="./pages/contacto.html">Contacto</a></li>
-              <li><a href="./pages/carrito.html" >
-                <img src="./assets/img/Redes/CarritoCompras.svg" alt="Logo de carrito de compras" style="width:30px">
-              </a></li>
-            </ul>
-          </nav>
-        </div>
-        <div class="header-flex-item">
-          <a href="https://www.millanel.com" target="_blank">
-            <img class="logo" src="./assets/img/millanel_logo.png" alt="logo de millanel cosmeticos, logotipo flor con nombre debajo "> 
-          </a>
-        </div>
-      </section>
-      <section class="contenedor_sub_nav">
-        <div class="sub_nav-flex-item">
-          <label for="genero">Fragancia :</label>
-          <select name="genero" id="genero">
-            <option value="todos">todas</option>
-            <option value="femenino">femeninas</option>
-            <option value="masculino">masculinas</option>
-            <option value="unisex">unisex</option>  
-          </select> 
-        </div> 
-        <input type="search" placeholder="Buscar...." class="sub_nav-flex-item" id="BusquedaText">   
-        <div class="sub_nav-flex-item"> 
-          <input type="text" placeholder="Usuario...."id="RegUsuario">
-          <input type="password" placeholder="Clave...."id="RegClave">
-          <button onclick="location.href='./pages/registro.html'">Registro</button>       
-        </section>   
-      </div>
-      <section class="comunicacion">
+    <footer id="footer" class="color_principal">
+      <section class="contendor_comunicacion">
         <div class="comunicacion-flex-item">
           <p ><span class="fuenteNegrita60">Dirección:</span> Avenida Rivadavia 5450, CABA, CP 1405</p>
           <p><span class="fuenteNegrita60">Teléfono:</span> (11) 5360-XXXX</p>
@@ -153,12 +110,7 @@
           <p>Todos los derechos reservados 2024</p>
           <p>Millanel cosmetico es marca registrada</p>
         </div>
-      </section>
-      </div>
         <div class="iconos_redes">
-          <a href="https://web.whatsapp.com/"target="_blank">
-            <img src="./assets/img/Redes/WhatsApp.svg" alt="Logo WhatsApp" style="width:21px">
-          </a>
           <a href="https://www.facebook.com" target="_blank">
           <img src="./assets/img/Redes/2023_Facebook_icon.svg" alt="Logo Facebook" style="width:20px">
         </a>
@@ -176,7 +128,11 @@
         </a>
         <a href="https://discord.com/"target="_blank">
           <img src="./assets/img/Redes/discord-round-color-icon.svg" alt="Logo Discord" style="width:21px">
-      </div>   
+        </a>  
+        <a href="https://web.whatsapp.com/send?phone=+5491100000000" class="conf-whatsapp" target="_blank">
+          <img src="./assets/img/Redes/WhatsApp.svg" alt="Logo WhatsApp" >
+        </a> 
+      </section>  
     </footer>
       
       
