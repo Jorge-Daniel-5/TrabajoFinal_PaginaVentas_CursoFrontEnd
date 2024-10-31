@@ -10,13 +10,13 @@
   </head>
   <body>
     <header id="header" class="color_principal">
-      <section class="contenedor_header">
-        <div class="header-flex-item">
+      <section class="container_header_grid">
+        <div class="logo_institucional">
           <a href="index.html">
             <img class="logo" src="./assets/img/rosa _128px.png" alt="logo de Fragancias Argentinas, un diujo de la flor de la rosa"> 
-          </a>
+          </a>        
         </div>
-        <div class="header-flex-item">
+        <div class="menu_principal">
           <nav>
             <ul>
               <li><a href="index.html">Inicio</a></li>   <!-- pagina con ofrtas-->
@@ -27,47 +27,55 @@
                 <img src="./assets/img/Redes/CarritoCompras.svg" alt="Logo de carrito de compras" style="width:30px">
               </a></li>
             </ul>
-          </nav>
+          </nav>        
         </div>
-        <div class="header-flex-item">
+        <div class="logo_productos">
           <a href="https://www.millanel.com" target="_blank">
             <img class="logo" src="./assets/img/millanel_logo.png" alt="logo de millanel cosmeticos, logotipo flor con nombre debajo "> 
           </a>
         </div>
-      </section>
-      <section class="contenedor_sub_nav">
-        <div class="sub_nav-flex-item">
+        <div class="filtro_producto">
           <label for="genero">Fragancia :</label>
-          <select name="genero" id="genero">
-            <option value="todos">todas</option>
+          <select name="opcion_genero" id="opcionGenero">
+            <option value="todos"selected>todas</option>>
             <option value="femenino">femeninas</option>
             <option value="masculino">masculinas</option>
             <option value="unisex">unisex</option>  
-          </select> 
-        </div> 
-        <input type="search" placeholder="Buscar...." class="sub_nav-flex-item" id="BusquedaText">   
-        <div class="sub_nav-flex-item"> 
+          </select>    
+        </div>
+        <div class="busqueda_producto">
+          <input type="search" placeholder="Buscar una fragancia...." id="BusquedaText">   
+        </div>
+        <div class="cta_usuario_sup">
           <input type="text" placeholder="Usuario...."id="RegUsuario">
+        </div>
+        <div class="cta_usuario_inf">
           <input type="password" placeholder="Clave...."id="RegClave">
-          <button onclick="location.href='./pages/registro.html'">Registro</button> 
-        </div>      
-      </section>   
+        </div>
+        <div class="cta_usuario_reg">
+          <button onclick="location.href='./pages/registro.html'">Nuevo usuario</button> 
+        </div>
+      </section>
     </header>
     <main class="color_fondo">
       <h1><div class="razonSocial">Fragancias Argentinas</div> -- Perfumes Millanel (alternativas olfativas) --</h1>
       <section id="oferta_f">
         <h2>Ofertas para mujer</h2>
-        <div class="contenedor_oferta">
+        <div class="flex-container-oferta">
           <img src="./assets/img/ofertas/Oferta1.jpg" alt="Oferta1, imagen perfume Belle Rose" class="flex-item">
-          <img src="./assets/img/ofertas/Oferta3.jpg" alt="Oferta3, imagen perfumes Sublme,Fémina,Amor M,Love me" class="flex-item">    
-          <img src="./assets/img/ofertas/Oferta4.jpg" alt="Oferta4, imagen perfumes Lady M, Las mil y  una noches" class="flex-item">      
           <img src="./assets/img/ofertas/Oferta5.jpg" alt="Oferta5, imagen perfume Icónica" class="flex-item">
         </div>
       </section>
       <section id="oferta_m">
         <h2>Ofertas para hombre</h2>
-        <div class="contenedor_oferta" >
+        <div class="flex-container-oferta" >
           <img src="./assets/img/ofertas/Oferta6.jpg" alt="Oferta6, imagen perfume Rebelde" class="flex-item">
+        </div>
+      </section>
+      <section id="oferta_U">
+        <h2>Ofertas para todos</h2>
+        <div class="flex-container-oferta" >
+          <p>Por el momento no tenemos ofertas en esta categoria</p>
         </div>
       </section>
       <section class="nosotros" id="nosotros">
